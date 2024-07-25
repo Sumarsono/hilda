@@ -1,0 +1,54 @@
+/* styles.css */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Mengatur agar navbar berada di tengah */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 120px 20px 20px 20px; /* Menyesuaikan padding atas untuk menyembunyikan navbar */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff4d4d;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.love-message {
+    font-style: italic;
+    color: #ff4d4d;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.photo {
+    margin-top: 30px;
+}
